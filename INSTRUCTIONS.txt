@@ -1,0 +1,19 @@
+# Objects
+- player: white rectangle
+- ground: green blocks
+- walls: brown blocks
+- spikes: red blocks
+- platforms: grey blocks
+
+# Behaviour
+- player can jump when standing on ground or platforms
+- player dies and respawns if they touch spikes or fall out of bounds
+
+# Controls
+- use left and right arrow keys to move horizontally
+- press c to jump
+- when colliding with a wall, hold z to grab (you will still slide down slowly)
+- when holding z, use up and down arrows to climb
+
+# Win condition
+- reach the right side of the map

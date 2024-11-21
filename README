@@ -1,0 +1,16 @@
+### Introduction
+This is a short platformer game developed for CS376 freestyle homework.
+
+### Getting Started
+
+## Pre-reqs
+- Unity Hub
+
+## Instructions
+- Clone this repo
+- Open Unity Hub and add this as a project
+- Open the project in Unity editor and load the game scene (Assets/Scenes/SampleScene.unity)
+- Click run at the top and have fun! (See game-specific instructions in INSTRUCTIONS.txt)
+
+### Credits
+See CREDITS.txt

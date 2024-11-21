@@ -1,0 +1,68 @@
+# Aesthetic Goals
+Challenge: Players find the game difficult and is engaged in overcoming the obstacles
+- success: 
+    Players retry levels until they beat it
+    Players think about strategies and routing
+- failure:
+    Players beat every level first try (too easy)
+    Players cheat or give up entirely (too unfair)
+
+Sensation: Players find the game aesthetically pleasing
+- success:
+    Players spend time looking at sprites
+    Players listen to the music non-trivially
+- failure:
+    Players turn off audio when playing
+
+# Core Loop
+In this game, players learn the mechanics, probably die a couple times trying, and beat the level eventually.
+A full platformer game would include introducing new mechanics and helping players learn with increasingly difficult levels.
+The core loop serves to deliver on the challenge aesthetic, requiring multiple attempts to win and progressively more precise inputs.
+It also contributes to the sensation aesthetic by making players stay longer in each area and look at the art.
+
+# Development Diary
+11/12/2024
+- implemented player horizontal movement
+- implemented player jump
+- fixed player being able to stick to walls
+- fixed player being able to jump when sliding down walls
+- implemented player climb
+- fixed player being able to continue climbing in air at the top of the wall
+- implemented spikes & death counter
+
+11/16/2024
+- implemented player respawn when dying on spikes
+- implemented player respawn when offscreen
+- fixed player being able to walk offscreen to the left
+- implemented moving platform
+- fixed player jump not resetting on platforms
+
+11/17/2024
+- fixed player not being able to go down on walls
+- added sound effects
+- added background music
+- implemented win condition (reach right end of map)
+- fixed win condition not triggering
+- implemented win screen with image and sound
+
+# Postmortem
+- Summarize what you originally set out to do
+    I originally set out to make a platformer game that is challenging and visually pleasing. 
+    I wanted multiple movement techs (jump, climb, dash) with interesting interplay.
+    I also wanted to have pretty sprites and good music for the game.
+- Summarize what your goals ended up being by the end
+    I couldn't find free game assets that fits my original goal in sensation, so I decided to look for music only.
+    I found it overly complicated to learn multiple movement techs in one scene, so I decided to exclude dash and climb jumps.
+• Summarize what you accomplished of those goals
+    I made the game sufficiently difficult but still quickly learnable. 
+    I successfully implemented movement mechanics and the basic core loop within a level.
+• What went right?
+    Scripting movement and adding sounds felt easier with experience from previous assignment.
+• What went wrong?
+    Platformer logic is more challenging than I thought, with problems like sticking to walls and going out of bounds.
+    I used quick fixes since it's a week-long assignment, so movement doesn't feel very smooth.
+• What do you wish you knew at the start of the project that you know now?
+    I wish I knew more about finding the right assets as well as how to use them in unity.
+    Most assets I found came in large texture maps that felt too complicated to use.
+• What did you learn in the process?
+    I learned to do bug fixes efficiently, since the game is more collision-based compared to the air fighter I made last week.
